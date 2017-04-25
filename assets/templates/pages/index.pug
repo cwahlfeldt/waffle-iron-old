@@ -1,0 +1,9 @@
+//- index.pug
+extends ../layouts/main
+
+prepend title
+  - var title = 'Static Site Gen'
+
+block content
+  .container
+    include ../components/content
