@@ -1,7 +1,12 @@
-html
+doctype html
+html.no-js(lang='en')
   head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
     block title
       title WaffleIron | #{title}
+    meta(name='description', content='Waffle Iron Test Site')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
   body
     block header
       include ../components/header

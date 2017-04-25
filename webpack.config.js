@@ -56,6 +56,12 @@ module.exports = {
         }
       },
       {
+        test: require.resolve('jquery'),
+        use: {
+          loader: 'imports-loader?jQuery=jquery,$=jquery,this=>window'
+        }
+      },
+      {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',

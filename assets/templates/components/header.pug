@@ -1,12 +1,15 @@
 header.main-header
-  nav.navbar-toggleable-md.navbar-light
+  nav.navbar.navbar-toggleable-md.navbar-light
+    button.navbar-toggler.navbar-toggler-right(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+      span.navbar-toggler-icon
     .container
       a.navbar-brand.brand(href="/") WaffleIron
-      ul.navbar-nav.ml-auto
-        li.nav-item
-          a.nav-link(href="/") Home
-        li.nav-item
-          a.nav-link(href="/test/") Test
-        li.nav-item
-          a.nav-link(href="/testing/") Testing
+      #navbarSupportedContent.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href="/") Home
+          li.nav-item
+            a.nav-link(href="/test/") Test
+          li.nav-item
+            a.nav-link(href="/testing/") Testing
 
