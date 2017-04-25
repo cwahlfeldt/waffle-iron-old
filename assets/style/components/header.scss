@@ -6,3 +6,15 @@ header.main-header {
     color: #333;
   }
 }
+@media (max-width: $breakpoint-sm) {
+  .navbar-toggleable-sm > .container {margin-left: 0;}
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-light {
+  .navbar-toggler:focus {
+    outline: none;
+    color: red;
+  }
+}

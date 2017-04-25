@@ -1,0 +1,25 @@
+.jumbotron {
+  min-height: 330px;
+  background-color: #333;
+  color: #f0f0f0;
+  @media (min-width: $breakpoint-md) {
+    padding: 5.5rem 2rem;
+  }
+}
+.bar-diagonal {
+  display: block;
+  background: white;
+  transform: rotate(175deg) translateY(169px);
+  width: 200%;
+  height: 150px;
+  margin-bottom: -10rem;
+  @media (max-width: $breakpoint-md) {
+    margin-bottom: -12rem;
+  }
+  @media (max-width: $breakpoint-sm) {
+    margin-bottom: -12rem;
+  }
+  @media (max-width: $breakpoint-xs) {
+    margin-bottom: -15rem;
+  }
+}

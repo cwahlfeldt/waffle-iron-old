@@ -2,8 +2,11 @@
 extends ../layouts/main
 
 prepend title
-  - var title = 'Static Site Gen'
+  - var title = 'Static Site Gen';
 
 block content
+  include ../components/banner
+  +banner('Static Site Gen')
   .container
-    include ../components/content
+    p.content Elit eius quasi rerum quo dolorem sunt Explicabo unde amet unde facere similique maxime tempore. Qui eveniet beatae modi possimus corporis eos Illo error magnam quidem pariatur quidem repudiandae quibusdam. Dolor sit libero maxime aliquam tempore. Praesentium ipsam voluptates voluptates asperiores ad, deserunt nesciunt nostrum nostrum, vitae. Voluptatibus autem quidem ea quibusdam inventore quo? Expedita asperiores soluta maxime quis maxime
+    p.content Consectetur exercitationem velit minus libero exercitationem dolorum? Voluptatum ab sit necessitatibus soluta exercitationem tempora? Deserunt minima nam blanditiis aliquid tempora? Deserunt illum quidem alias fugiat tempore. Aperiam a ipsam in! Consectetur natus dolorem commodi aut fugiat? Perspiciatis provident dolore asperiores aperiam earum? Eum est consectetur labore sit consectetur Inventore reprehenderit odit iste pariatur eveniet! Vel porro vel expedita quibusdam obcaecati. Adipisicing fugiat quam temporibus modi cum Sit repudiandae distinctio deserunt fugit deserunt Nemo cupiditate similique dolor unde dignissimos. Exercitationem debitis iste nobis unde ullam sequi. Aspernatur porro enim provident totam?
